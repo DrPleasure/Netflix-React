@@ -10,22 +10,13 @@ import MovieGallery from "./components/movieGallery.jsx";
 function App() {
   return (
     <>
-      <NavigationBar />
+      <div className="rainbow-box">
+        <NavigationBar />
+      </div>
       <Container fluid>
-        <div className="genre-details">
-          <div className="d-flex">
-            <h3 className="text-light">Movies</h3>
-            <Button
-              variant="outline-light"
-              className="genre-button dropdown-toggle"
-            >
-              Genres
-            </Button>
-          </div>
-        </div>
+        <MovieGallery search="Star Wars" />
         <MovieGallery search="Harry Potter" />
         <MovieGallery search="Lord of the Rings" />
-        <MovieGallery search="Star Wars" />
       </Container>
       <Footer />
     </>

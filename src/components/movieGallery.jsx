@@ -1,7 +1,7 @@
 import React from "react";
 import { Spinner, Carousel, Row, Col, Alert } from "react-bootstrap";
 
-let key = `98032d8e`;
+let key = `daa9e658`;
 
 class MovieGallery extends React.Component {
   state = {
@@ -76,7 +76,7 @@ class MovieGallery extends React.Component {
         )}
 
         {!this.state.isLoading && !this.state.isError && (
-          <Carousel>
+          <Carousel indicators={false}>
             {this.state.movies.map((movies) => (
               <Carousel.Item>
                 <div className="movie-row">
@@ -84,7 +84,7 @@ class MovieGallery extends React.Component {
                     {movies.map((movie) => (
                       <Col md={2}>
                         <a href="#">
-                          <img src={movie.Poster} />
+                          <img src={movie.Poster} alt="poster" />
                         </a>
                       </Col>
                     ))}

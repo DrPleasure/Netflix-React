@@ -52,33 +52,31 @@ class Footer extends React.Component {
                   </svg>
                 </Nav.Link>
 
-                <Nav.Link href="#">Audio and Subtitles</Nav.Link>
-                <Nav.Link href="#">Media Center</Nav.Link>
-                <Nav.Link href="#">Privacy</Nav.Link>
-                <Nav.Link href="#">Contact Us</Nav.Link>
-                <Nav.Link href="#">Service Code</Nav.Link>
+                <Nav.Link href="#">Synsfortolkning</Nav.Link>
+                <Nav.Link href="#">Investorforhold</Nav.Link>
+                <Nav.Link href="#">Juridisk tekst</Nav.Link>
                 <Nav.Link href="#">&copy; 1997-2021 Netflix Inc</Nav.Link>
               </Nav>
             </Col>
             <Col md={3}>
               <Nav className="navbar-nav">
-                <Nav.Link href="#">Audio Description</Nav.Link>
-                <Nav.Link href="#">Investor Relations</Nav.Link>
-                <Nav.Link href="#">Legal Notices</Nav.Link>
+                <Nav.Link href="#">Hjælp-center</Nav.Link>
+                <Nav.Link href="#">Ledige stillinger</Nav.Link>
+                <Nav.Link href="#">Cookieindstillinger</Nav.Link>
               </Nav>
             </Col>
             <Col md={3}>
               <Nav className="navbar-nav">
-                <Nav.Link href="#">Help Center</Nav.Link>
-                <Nav.Link href="#">Jobs</Nav.Link>
-                <Nav.Link href="#">Cookie Preferences</Nav.Link>
+                <Nav.Link href="#">Gavekort</Nav.Link>
+                <Nav.Link href="#">Brugerbetingelser</Nav.Link>
+                <Nav.Link href="#">Virksomhedsoplysninger</Nav.Link>
               </Nav>
             </Col>
             <Col md={3}>
               <Nav className="navbar-nav">
-                <Nav.Link href="#">Gift Cards</Nav.Link>
-                <Nav.Link href="#">Terms of Use</Nav.Link>
-                <Nav.Link href="#">Corporate Information</Nav.Link>
+                <Nav.Link href="#">Mediecenter</Nav.Link>
+                <Nav.Link href="#">Privatliv</Nav.Link>
+                <Nav.Link href="#">Kontakt os</Nav.Link>
               </Nav>
             </Col>
           </Row>
