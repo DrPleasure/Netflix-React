@@ -15,8 +15,11 @@ function App() {
       </div>
       <Container fluid>
         <MovieGallery search="Star Wars" />
+        <MovieGallery search="Teletubbies" />
         <MovieGallery search="Harry Potter" />
+        <MovieGallery search="Air Bud" />
         <MovieGallery search="Lord of the Rings" />
+        <MovieGallery search="Olaf" />
       </Container>
       <Footer />
     </>

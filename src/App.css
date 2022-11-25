@@ -84,7 +84,7 @@ footer .nav-link:hover {
 
 .rainbow-box {
   top: 0;
-  background-color: #302244;
+  background-color: #000000;
   border: 5px solid transparent;
   border-image: linear-gradient(
     to bottom right,
