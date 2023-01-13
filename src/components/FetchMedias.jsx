@@ -10,6 +10,5 @@ const fetchMedias = async () => {
   }
 }
 
-console.log("Link to hosted back-end with get all media query: https://gold-healthy-pangolin.cyclic.app/medias")
-
 export default fetchMedias;
+
