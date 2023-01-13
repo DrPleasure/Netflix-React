@@ -4,6 +4,7 @@ const fetchMedias = async () => {
     const response = await fetch('http://localhost:3001/medias');
     const data = await response.json();
     return data;
+    console.log(data)
   } catch (error) {
     console.error(error);
   }

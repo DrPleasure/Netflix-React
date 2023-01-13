@@ -9,6 +9,7 @@ const Movies = () => {
   }, []);
   
   return (
+    
     <div className="container">
       <div className="row">
         {medias.map(media => (
