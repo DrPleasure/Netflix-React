@@ -22,7 +22,7 @@ const Movies = () => {
                 <div><p>Metascore: {media.Metascore}</p></div>
                 <div>
                 <a href={`https://www.imdb.com/title/${media.imdbID}`} className="btn btn-primary">IMDB</a>
-                <a href={`http://localhost:3001/medias/${media.id}/pdf/`} className="btn btn-success">DOWNLOAD PDF</a>
+                <a href={`https://gold-healthy-pangolin.cyclic.app/medias/${media.id}/pdf/`} className="btn btn-success">DOWNLOAD PDF</a>
                 </div> 
               </div>
             </div>
