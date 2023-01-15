@@ -1,7 +1,7 @@
 
 const fetchMedias = async () => {
   try {
-    const response = await fetch('https://gold-healthy-pangolin.cyclic.app/medias');
+    const response = await fetch('https://u4d10solo-production.up.railway.app/medias');
     const data = await response.json();
     return data;
    
