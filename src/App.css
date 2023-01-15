@@ -107,3 +107,8 @@ footer .nav-link:hover {
 #page_header {
   color: white;
 }
+
+.card-body {
+  background-color: black;
+    color: white;
+}
