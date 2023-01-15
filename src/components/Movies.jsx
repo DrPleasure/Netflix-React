@@ -19,6 +19,7 @@ const Movies = () => {
               <div className="card-body">
                 <h5 className="card-title">{media.title}</h5>
                 <p className="card-text">{media.year}</p>
+                <div><p>Metascore: {media.Metascore}</p></div>
                 <div>
                 <a href={`https://www.imdb.com/title/${media.imdbID}`} className="btn btn-primary">IMDB</a>
                 <a href={`http://localhost:3001/medias/${media.id}/pdf/`} className="btn btn-success">DOWNLOAD PDF</a>
